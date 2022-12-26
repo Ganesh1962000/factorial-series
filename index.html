@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facorial-Fibonacci-Series</title>
+</head>
+<body>
+
+    <script>
+
+        //-----Factorial Series
+        let num=parseInt(prompt("Enter a Value"));
+        for(i=num-1; i>=1; i--){
+            num*=i;
+        }
+         console.log(num);
+
+        //-------Fibonacci series
+        let number= parseInt(prompt("Enter a Number"));
+        let num1 = 0;
+        let num2 = 1;
+        let numN ;
+        for(i=0;i<=number;i++){
+                console.log(num1);
+                numN = num1 +num2;
+                num1=num2;
+                num2=numN;
+            }
+
+    </script>
+    
+</body>
+</html>
